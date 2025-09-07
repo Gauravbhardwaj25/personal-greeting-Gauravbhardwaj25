@@ -5,7 +5,8 @@ import Greetings from './Greetings';
 const App = () => {
   return (
   <>
-  <Greetings></Greetings>
+  <div id="root"><Greetings></Greetings></div>
+  
   </>
   )
 }

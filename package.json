@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --no-color 2>output.txt",
-    "start": "webpack serve --mode development --open",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode production"
+  "start": "webpack-dev-server --open --hot",
+  "build": "webpack --mode production"
+}
+
   },
   "keywords": [],
   "author": "",
