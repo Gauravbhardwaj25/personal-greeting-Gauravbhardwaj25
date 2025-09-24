@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 function Greetings() {
 
-
-    const [name, setName] = useState("");
+    const[name, setName] = useState("")
+// const [name, setName] =usestate("");
+    
     return (
         <>
             <div>

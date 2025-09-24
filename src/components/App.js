@@ -1,14 +1,13 @@
-
-import './../styles/App.css';
-import Greetings from './Greetings';
+import React from "react";
+import "./../styles/App.css";
+import Greetings from "./Greetings";
 
 const App = () => {
   return (
-  <>
-  <div id="root"><Greetings></Greetings></div>
-  
-  </>
-  )
-}
+    <>
+      <Greetings />
+    </>
+  );
+};
 
-export default App
+export default App;
